@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import axios from 'axios';
 
 const API_KEY = 'AIzaSyDw-pSkDs0PC82RjKGJR069YNsLfT3E9Q8';
@@ -9,14 +10,19 @@ const instance = axios.create({
 
 const youtubeAPI = {
   searchVideosByQuery(query: string) {
-    return instance.get(`search?part=snippet&maxResults=${maxResults}&q=${query}&key=${API_KEY}`)
+    return instance
+      .get(
+        `search?part=snippet&maxResults=${maxResults}&q=${query}&key=${API_KEY}`,
+      )
       .then((response) => response.data);
   },
 
   findVideoById(id: string) {
-    return instance.get(`videos?part=snippet%2CcontentDetails%2Cstatistics&id=${id}&key=${API_KEY}`)
+    return instance
+      .get(
+        `videos?part=snippet%2CcontentDetails%2Cstatistics&id=${id}&key=${API_KEY}`,
+      )
       .then((response) => response.data);
   },
 };
-
 export default youtubeAPI;

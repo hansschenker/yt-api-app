@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import {
   applyMiddleware, combineReducers, compose, createStore,
 } from 'redux';

@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { ThunkAction } from 'redux-thunk';
 import { Dispatch } from 'react';
 import { getEmbedLinksFromData } from '../helpers/youtube-parser';

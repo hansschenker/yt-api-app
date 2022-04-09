@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { FormEvent, useState } from 'react';
 import { connect } from 'react-redux';
 import { setAppRegime } from '../../redux/app-reducer';

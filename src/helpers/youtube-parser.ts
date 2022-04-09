@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { EmbedLinkType } from '../types/types';
 
 const SEARCH_ID_PATTERN = /(vi\/|v%3D|v=|\/v\/|youtu\.be\/|\/embed\/)/;

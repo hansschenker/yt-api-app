@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import Content from '../Common/Content';
 import Description from '../Common/Description';

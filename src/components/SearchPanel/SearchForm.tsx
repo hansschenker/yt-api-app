@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { FormEvent, useState } from 'react';
 import { connect } from 'react-redux';
 import Button from '../Common/Button';

@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import LinksPanel from './components/LinksPanel/LinksPanel';
 import SearchPanel from './components/SearchPanel/SearchPanel';

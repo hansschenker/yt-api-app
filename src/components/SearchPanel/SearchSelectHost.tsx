@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { ChangeEvent } from 'react';
 import { connect } from 'react-redux';
 import { v4 as uuid } from 'uuid';

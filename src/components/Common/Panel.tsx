@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import HeaderBar from './HeaderBar';
 import HeaderContainer from './HeaderContainer';

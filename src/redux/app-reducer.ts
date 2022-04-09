@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const SET_APP_REGIME = 'talenya-app/video-reducer/SET_APP_REGIME';
 
 const initialState = {
